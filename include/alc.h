@@ -10,11 +10,14 @@
 
 const int BUFFER_SIZE = JSON_OBJECT_SIZE(50);
 
+
+
 void setup();
 void setup_wifi();
 void getUpdate();
-void updateLED(DynamicJsonDocument jsonDoc);
+void updateLED(String config);
 uint16_t singleLEDS();
-void update_ws2812fx();
 void async_request();
 void connect();
+void ldrMode();
+void rgbToHex(byte red, byte green, byte blue);

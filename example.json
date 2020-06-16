@@ -12,3 +12,20 @@
     "speed":1000             
 
 }
+
+{
+    "state": 0,
+    "brightness": 2,
+    "color": {
+        "red": 0,
+        "green": 255,
+        "blue": 255
+    },
+    "leds": [
+       {"num":1, "color":{ "red":255, "green":255, "blue":255}}
+       {"num":1, "color":{ "red":255, "green":255, "blue":255}}
+    ],
+    "ledcount": 42,
+    "effect": 1,
+    "speed": 97
+}
